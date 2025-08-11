@@ -17,3 +17,24 @@ fs.readFile("f2.txt", function (err, data) {
 });
 
 console.log("End");
+
+
+// update
+
+// fs.appendFile , fs.appendFileSync
+
+// write methods
+
+fs.writeFileSync('f4.txt' , 'I am f4 data')
+
+
+fs.writeFile('f5.txt' , 'I am f5 data' , function(err , data){
+    console.log('File Written')
+})
+
+// fs.writeFileSync , fs.writeFile
+
+// delete 
+
+// fs.unlinkSync 
+// fs.unlink
