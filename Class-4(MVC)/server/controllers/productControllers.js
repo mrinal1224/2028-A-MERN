@@ -1,5 +1,13 @@
 const ProductModel = require('../models/product.js')
 
+// get All products
+
+exports.getAllProducts = async(req , res)=>{
+
+}
+
+
+
 // Post, create A product
 exports.createProduct = async (req , res)=>{
   let course =  await  ProductModel.create({
@@ -10,5 +18,18 @@ exports.createProduct = async (req , res)=>{
     })
 
     res.send(course)
+}
+
+// updateProduct 
+
+exports.updateProduct = async (req , res)=>{
+  
+}
+
+
+
+
+exports.deleteProduct = async (req , res)=>{
+  
 }
 
